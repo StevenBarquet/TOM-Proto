@@ -24709,6 +24709,7 @@ body {
 }
 .home-element {
   margin-top: 25px;
+  background-color: white;
   width: 340px;
 }
 .home-element p {
@@ -24722,6 +24723,7 @@ body {
 }
 .carrusel-cont {
   background-color: #272f52;
+  width: 340px;
   line-height: 250px;
 }
 
