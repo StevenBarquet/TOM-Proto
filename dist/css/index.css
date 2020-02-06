@@ -24612,23 +24612,34 @@ body {
   padding: 20px 12px 5px 12px;
 }
 .nav-logo {
-  width: 70px;
+  margin-top: 15px;
+  width: 155px;
+  text-align: center;
+  color: #fab624;
+  font-size: 32px;
+}
+.nav-logo span {
+  color: #ffffff;
+}
+.nav-logo p {
+  font-size: 12px;
+  color: #ffffff;
 }
 .nav-button {
   border: 1px solid #ffffff;
   border-radius: 4px;
-  width: 168px;
-  height: 45px;
+  width: 140px;
+  height: 35px;
   margin: 10px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 16px;
 }
 .nav-button i {
   margin-right: 8px;
-  font-size: 22px;
+  font-size: 19px;
 }
 .nav-button:hover {
   color: #fab624;
@@ -24709,8 +24720,7 @@ body {
 }
 .home-element {
   margin-top: 25px;
-  background-color: white;
-  width: 320px;
+  width: 300px;
 }
 .home-element p {
   margin-top: 15px;
@@ -24722,8 +24732,41 @@ body {
   color: #343a40;
 }
 .carrusel-cont {
-  background-color: #272f52;
-  width: 320px;
+  width: 300px;
   line-height: 250px;
+}
+.carrusel-prod {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+.carrusel-img {
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  overflow: hidden;
+}
+.carrusel-img img {
+  width: 100%;
+  height: auto;
+}
+@supports (object-fit: cover) {
+  .carrusel-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+.dark-border {
+  width: 100%;
+  height: 25px;
+  background-color: rgba(38, 42, 46, 0.9);
+  position: relative;
+  bottom: 0px;
+}
+/* For demo */
+.ant-carousel .slick-slide {
+  text-align: center;
+  overflow: hidden;
 }
 
