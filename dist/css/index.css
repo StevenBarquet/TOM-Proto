@@ -24691,10 +24691,32 @@ body {
   font-size: 14px;
 }
 .anuncios {
-  background-color: #272f52;
+  background-color: #ffffff;
   width: 90%;
-  height: 350px;
   margin: 40px 5% 40px 5%;
+  padding: 25px 0px 25px 0px;
+}
+.anuncio-title {
+  text-align: center;
+  font-size: 24px;
+  color: #272727;
+}
+.anuncio-title span {
+  color: #343a40;
+  font-weight: bold;
+}
+.anuncio-title h4 {
+  font-size: 38px;
+  color: #fab624;
+}
+.anuncio-title h4 span {
+  color: #27c041;
+}
+.anuncio-title p {
+  font-size: 20px;
+  color: #343a40;
+  width: 65%;
+  margin: 0px auto 0px auto;
 }
 .steps-container {
   width: 100%;
@@ -24774,9 +24796,48 @@ body {
   right: 0;
   z-index: -1;
 }
-.canv-container {
+.search-container {
+  width: 90%;
+  margin: 15px 5% 25px 5%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.item-title {
+  font-size: 16px;
+  color: #687079;
+}
+.item-img {
+  width: 300px;
+  height: 300px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+.item-img img {
   width: 100%;
-  height: 55px;
-  background-color: #bedae5;
+  height: auto;
+}
+@supports (object-fit: cover) {
+  .item-img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+.item-cost {
+  color: #687079;
+  font-weight: bold;
+}
+.item-social p {
+  color: #c02792;
+  display: inline-block;
+  font-size: 19px;
+  margin-right: 5px;
+}
+.item-social span {
+  color: #4889ca;
+  font-size: 19px;
+  margin-right: 5px;
 }
 
