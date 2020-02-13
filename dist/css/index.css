@@ -24853,4 +24853,14 @@ body {
 .categorias p {
   color: #343a40;
 }
+.bool-filter-card {
+  width: 96%;
+  height: 90px;
+  margin: 6px;
+}
+.filter-card {
+  width: 96%;
+  height: 190px;
+  margin: 6px;
+}
 
