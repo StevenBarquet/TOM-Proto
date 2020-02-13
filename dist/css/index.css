@@ -24804,6 +24804,10 @@ body {
   border-radius: 3px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+.paginator-container {
+  display: block;
+  margin: 25px;
+}
 .item-title {
   font-size: 16px;
   color: #687079;
@@ -24815,8 +24819,8 @@ body {
   overflow: hidden;
 }
 .item-img img {
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
 }
 @supports (object-fit: cover) {
   .item-img img {
@@ -24839,5 +24843,14 @@ body {
   color: #4889ca;
   font-size: 19px;
   margin-right: 5px;
+}
+.categorias {
+  display: block;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 18px;
+}
+.categorias p {
+  color: #343a40;
 }
 
