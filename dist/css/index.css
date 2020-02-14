@@ -24812,18 +24812,35 @@ body {
   font-size: 16px;
   color: #687079;
 }
-.item-img {
+.ancha {
   width: 300px;
   height: 300px;
   margin-top: 4px;
   overflow: hidden;
 }
-.item-img img {
+.ancha img {
+  height: auto;
+  width: 100%;
+}
+@supports (object-fit: contain) {
+  .ancha img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+  }
+}
+.alta {
+  width: 300px;
+  height: 300px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+.alta img {
   height: 100%;
   width: auto;
 }
 @supports (object-fit: cover) {
-  .item-img img {
+  .alta img {
     height: 100%;
     object-fit: cover;
     object-position: center center;
@@ -24831,7 +24848,18 @@ body {
 }
 .item-cost {
   color: #687079;
+  font-size: 17px;
   font-weight: bold;
+}
+.item-add {
+  font-size: 16px;
+}
+.item-add i {
+  font-size: 22px;
+}
+.item-add:hover {
+  color: #fab624;
+  cursor: pointer;
 }
 .item-social p {
   color: #c02792;
@@ -24843,6 +24871,15 @@ body {
   color: #4889ca;
   font-size: 19px;
   margin-right: 5px;
+}
+.item-social:hover {
+  cursor: pointer;
+}
+.item-social:hover p {
+  color: #e45ebc;
+}
+.item-social:hover span {
+  color: #27c9e6;
 }
 .categorias {
   display: block;

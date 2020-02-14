@@ -1,0 +1,18 @@
+--------------Usuario--------------------------------
+Home: necesito los id y la url de portada de los productos marcados o almacenados en la base de datos de "productos destacados de home" divididos en 7 categorías diferentes cada categoría con 3 productos diferentes
+Búsqueda: necesito los nombres, ids, url de portada, likes, fabs y precio de los resultados de busqueda, si mockeas tambien el funcionamiento entonces te voy a enviar tambien parámetros para la búsqueda y hacer los filtros
+Solicitud de productos: necesito que me regreses un estatus en caso de hacer una solicitud exitosa de un producto que el cliente requiera y no se encuentre en el catálogo
+Ventana de soporte: necesito un array de ids, categoria, descripción, progreso, dictamen correspondientes a tickets de soporte levantados por el usuario reviamente, tambien necesito  un servicio que me regrese un estatus cuando se levanta un ticket.
+Mis pedidos: Necesito un array de arrays con historial de las compras del usuario, posibles campos adicionales: id del usuario, fecha de operacion, estatus del pedido, chat.
+Mi perfil: necesito los campos de los datos del usuario para poder visualizarlos, eventualmente editarlos pero de momento poder visualizarlos.
+Mis direcciones: Lo mismo que mi perfil pero para las direcciones del usuario, puede tener varias y seleccionar la que él desee al momento de su compra.
+Login: correo, nombre, contraseña.
+
+----------------Admin-----------------------
+Catalogo de productos: muestra, busca, filtra los productos en la base de datos.
+Editar/agregar productos: regresa un estatus si se agrega/edita con éxito un producto.
+Pedidos: muestra, busca, filtra los pedidos en la base de datos.
+Gastos: regresa un estatus si se logra agregar un gasto con éxito. (posibles campos: cantidad, concepto, descripcion, fecha simple, rango de fechas)
+Estadisticas: muestra, busca, filtra, segmenta, organiza los datos de las ventas como ganancias, visitas, likes, gastos etc. 
+Productos home: gestiona los productos que se muestran en el home.
+Banner Home: agrega/edita los banners que se muestran en el home
