@@ -24594,6 +24594,53 @@ body {
   margin: 0;
   font-family: 'IntroBookAlt', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.btn-mlg {
+  margin: 10px 5px 10px 5px;
+  border-radius: 3.5px;
+  padding: 8px 4px 8px 4px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+  transition: 0.3s all ease;
+}
+.btn-mlg i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.btn-mlg-yellow {
+  color: #ffffff;
+  background-color: #fab624;
+}
+.btn-mlg-blue {
+  color: #ffffff;
+  background-color: #4889ca;
+}
+.btn-mlg-purple {
+  color: #ffffff;
+  background-color: #c02792;
+}
+.btn-mlg-green {
+  color: #ffffff;
+  background-color: #27c041;
+}
+.btn-mlg-big {
+  font-size: 18px;
+}
+.btn-mlg-big i {
+  font-size: 30px;
+  margin-right: 8px;
+}
+.btn-mlg:hover {
+  box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn-mlg:focus {
+  outline: 0;
+}
+.btn-mlg:active {
+  transform: scale(0.9);
+}
 .nav-full {
   position: relative;
   width: 100%;
@@ -24812,10 +24859,12 @@ body {
   font-size: 16px;
   color: #687079;
 }
-.ancha {
+.item-img {
   width: 300px;
   height: 300px;
   margin-top: 4px;
+}
+.ancha {
   overflow: hidden;
 }
 .ancha img {
@@ -24830,9 +24879,6 @@ body {
   }
 }
 .alta {
-  width: 300px;
-  height: 300px;
-  margin-top: 4px;
   overflow: hidden;
 }
 .alta img {
@@ -24899,5 +24945,42 @@ body {
   width: 96%;
   height: 190px;
   margin: 6px;
+}
+.product-container {
+  width: 90%;
+  margin: 15px 5% 25px 5%;
+  padding: 20px;
+  background-color: #4e4e4e;
+  border-radius: 3px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.product-container h4 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+}
+.cover-cont {
+  border: 1px solid #687079;
+  margin: 4px auto 4px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.cover-cont-small {
+  width: 80px;
+  height: 80px;
+}
+.cover-cont-big {
+  width: 380px;
+  height: 380px;
+}
+.precio-product {
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 12px 0px 0px 0px;
 }
 
