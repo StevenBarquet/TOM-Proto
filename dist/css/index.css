@@ -24979,8 +24979,39 @@ body {
 }
 .precio-product {
   color: #ffffff;
-  text-align: center;
   font-size: 28px;
   padding: 12px 0px 0px 0px;
+}
+.prod-details p {
+  color: #ffffff;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 15px;
+}
+.prod-details h6 {
+  color: #dddddd;
+  font-size: 15px;
+}
+.prod-details h6 span {
+  color: #fab624;
+  font-size: 17px;
+}
+.prod-rate {
+  margin: 15px 10px 15px 10px;
+  color: #ffffff;
+}
+.prod-rate h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.prod-rate p {
+  display: block;
+  font-size: 16px;
+}
+.prod-rate span {
+  color: #fab624;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0px 15px 0px;
 }
 
