@@ -24589,6 +24589,9 @@ div.ant-typography-edit-content {
 .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
   background-color: #fab624;
 }
+.ant-badge-count {
+  background: #27c041;
+}
 body {
   background-color: #343a40;
   margin: 0;
@@ -24615,6 +24618,10 @@ body {
   color: #ffffff;
   background-color: #4889ca;
 }
+.btn-mlg-red {
+  color: #ffffff;
+  background-color: #f14545;
+}
 .btn-mlg-purple {
   color: #ffffff;
   background-color: #c02792;
@@ -24629,6 +24636,13 @@ body {
 .btn-mlg-big i {
   font-size: 30px;
   margin-right: 8px;
+}
+.btn-mlg-big {
+  font-size: 14px;
+}
+.btn-mlg-big i {
+  font-size: 18px;
+  margin-right: 4px;
 }
 .btn-mlg:hover {
   box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
@@ -25013,5 +25027,76 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin: 15px 0px 15px 0px;
+}
+.mini-cart {
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px 15px 40px;
+  background-color: #fab624;
+  color: #343a40;
+  border-radius: 4px 4px 0px 0px;
+}
+.mini-cart i {
+  font-size: 32px;
+}
+.mini-cart:hover {
+  box-shadow: 1px 1px 20px rgba(10, 10, 10, 0.2);
+  background-color: #c08506;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.mini-cart:focus {
+  outline: 0;
+}
+.mini-cart:active {
+  transform: scale(0.9);
+}
+.show-mini-cart {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 340px;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.close-transparent {
+  z-index: 1;
+  background-color: rgba(10, 10, 10, 0.2);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.close-transparent:hover {
+  background-color: rgba(59, 59, 59, 0.2);
+  cursor: pointer;
+}
+.mini-cart-list-container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80%;
+}
+.cart-images {
+  border: 1px solid #dddddd;
+  margin: 4px auto 4px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+}
+.cart-col-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 75px;
 }
 
