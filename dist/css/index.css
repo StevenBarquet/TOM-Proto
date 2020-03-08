@@ -24627,10 +24627,48 @@ div.ant-typography-edit-content {
 .ant-steps-item-subtitle {
   color: #dddddd;
 }
+.ant-table-row {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.ant-pagination-item-active {
+  border-color: #fab624;
+}
+.ant-pagination-item-active a {
+  color: #fab624;
+}
+.ant-pagination-item-active:hover {
+  border-color: #fdcf6b;
+}
+.ant-pagination-item-active:hover a {
+  color: #fdcf6b;
+}
+.ant-pagination-item:focus a,
+.ant-pagination-item:hover a {
+  color: #fdcf6b;
+}
+.ant-pagination-item:focus,
+.ant-pagination-item:hover {
+  border-color: #fdcf6b;
+}
 body {
   background-color: #343a40;
   margin: 0;
   font-family: 'IntroBookAlt', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mx-30 {
+  margin: 30px 0px 30 0px;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 .btn-mlg {
   margin: 10px 5px 10px 5px;
@@ -24649,7 +24687,21 @@ body {
 }
 .btn-mlg-yellow {
   color: #ffffff;
+  text-shadow: 2px 2px 2px #343a40;
   background-color: #fab624;
+}
+.btn-mlg-yellow i {
+  font-weight: bold;
+}
+.btn-mlg-yellow-outline {
+  color: #fab624;
+  background-color: transparent;
+  border: 1px solid #fab624;
+}
+.btn-mlg-blue-outline {
+  color: #4889ca;
+  background-color: transparent;
+  border: 1px solid #4889ca;
 }
 .btn-mlg-blue {
   color: #ffffff;
@@ -24913,6 +24965,33 @@ body {
   display: block;
   margin: 25px;
 }
+.search-item-container {
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 25px 0px 0px 0px;
+  font-size: 16px;
+  width: 310px;
+}
+.search-item-header {
+  font-size: 18px;
+  padding: 8px 8px 8px 8px;
+  margin: 8px;
+  color: rgba(10, 10, 10, 0.6);
+  border-bottom: 1px solid #fab624;
+  /* Required for text-overflow to do anything */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.search-item-img-container {
+  margin: 4px auto 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 300px;
+  height: 300px;
+}
 .item-title {
   font-size: 16px;
   color: #687079;
@@ -25105,7 +25184,7 @@ body {
   right: 0px;
   width: 340px;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #343a40;
   z-index: 2;
 }
 .close-transparent {
@@ -25125,6 +25204,22 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 80%;
+}
+.mini-cart-item-container {
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 25px 10px 0px 10px;
+  font-size: 16px;
+}
+.mini-cart-item-header {
+  font-size: 18px;
+  margin: 8px;
+  color: rgba(10, 10, 10, 0.6);
+  border-bottom: 1px solid #fab624;
+  /* Required for text-overflow to do anything */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .cart-images {
   border: 1px solid #dddddd;
@@ -25173,5 +25268,85 @@ body {
 .cart-total-container p {
   font-size: 22px;
   color: #ffffff;
+}
+.cart-guest {
+  margin: 40px 25px 40px 25px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.cart-guest span {
+  color: #fab624;
+  margin: 0px 5px 0px 5px;
+}
+.cart-guest hr {
+  margin: 40px 25px 40px 25px;
+}
+.cart-form {
+  background-color: #ffffff;
+  border-radius: 3px;
+  width: 100%;
+  padding: 20px;
+}
+.dir-icons {
+  text-align: center;
+  font-size: 20px;
+}
+.dir-icons-casa {
+  color: #fab624;
+}
+.dir-icons-trabajo {
+  color: #c02792;
+}
+.dir-names {
+  font-size: 17px;
+}
+.mercadopago-button {
+  padding: 0 1.71428571em;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875em;
+  line-height: 2.71428571;
+  background: #fab624;
+  border-radius: 0.28571429em;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+.pay-card {
+  background-color: #ffffff;
+  display: block;
+  width: 70%;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  border-radius: 3px;
+}
+.pay-card p {
+  font-size: 18px;
+  padding: 20px 0px 10px 0px;
+}
+.pay-card p span {
+  color: #27c041;
+  font-weight: bold;
+}
+.pay-card hr {
+  margin: 0px 20px 30px 20px;
+  color: #27c041;
+}
+.pay-card h5 {
+  text-align: left;
+  margin: 5px 10px 30px 50px;
+  font-size: 20px;
+  color: #4889ca;
+  font-weight: bold;
+}
+.pay-card h5 span {
+  font-weight: normal;
+  margin-left: 20px;
+  font-size: 18px;
+  color: rgba(10, 10, 10, 0.6);
+}
+.pay-card h4 {
+  font-size: 18px;
+  color: #687079;
+  margin-top: 10px;
 }
 
